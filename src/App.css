@@ -1,0 +1,126 @@
+
+.App {
+  text-align: center;
+  /* align-items: center; */
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  
+}
+ 
+.App-logo {
+  height: 40vmin;
+}
+ 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+ 
+.App-link {
+  color: #e1faf5;
+}
+ 
+body{
+  background: #4B6587;
+}
+ 
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+
+.slides {
+  position: relative;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index:1;
+}
+
+.slides .slick-prev {
+  left: 5%;
+}
+
+.slides .slick-next {
+  right: 5%;
+}
+
+.item{
+  align-items: center;
+  padding: 100px;
+  padding-left: 770px;
+  
+}
+.text{
+  padding-left: 510px;
+  max-width: 700px;
+  display:flex;
+  text-align: center;
+  justify-content: justify;
+  color: rgb(132, 0, 255);
+  padding-top: 25px;
+  font-size: 22px;
+  color: #C8C6C6;
+  font-family: Georgia;
+  
+}
+
+.name{
+  padding-top: 20px;
+  font-size: 35px;
+  padding-left: 15px;
+  color: #F7F6F2;
+  
+}
+.location{
+  font-size: 15px;
+  padding-left: 15px;
+  color: black;
+  padding-bottom: 20px;
+  margin-top: -10px;
+  font-style: italic;
+}
+.designation{
+  margin-top: -20px;
+  font-size: 19px;
+  padding-left: 15px;
+  color:black;
+  font-style: italic;
+}
+
+.sound{
+  margin-right:800px;
+  margin-left:710px;
+}
+.cardItem{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.photo{
+  border: 2.8px solid white;
+  border-radius:50%; 
+  margin-top: 7px;
+  margin-left: 745px;
+  
+}
+.rating{
+  text-align: center;
+}
+h1{
+  text-align:center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #2C394B;
+}
